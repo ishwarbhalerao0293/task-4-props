@@ -7,9 +7,11 @@ function ClientInfo({ clientName, clientEmail, clientAddress, invoiceNumber }) {
                 <strong>Invoice Number:</strong> {invoiceNumber}
             </p>
 
+
             <p>
                 <strong>Client Name:</strong> {clientName}
             </p>
+
 
             <p>
                 <strong>Client Email:</strong> {clientEmail}

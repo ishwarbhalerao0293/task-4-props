@@ -56,9 +56,15 @@ body {
   margin: 5px 0;
 }
 
-.client-info {
-  margin: 25px 0;
-  line-height: 1.7;
+.client .client-Info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.client-Info p {
+  margin: 0;
 }
 
 .client-info h3,
